@@ -1,0 +1,39 @@
+.btn {
+    padding: 16px 24px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 30px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn-red {
+    background-color: #B00F0F;
+    color:white;
+}
+
+.btn-white {
+    background-color: white;
+    border: 1px solid transparent;
+    color:black;
+}
+
+.btn-white:hover {
+    background-color: #B00F0F;
+    color:white;
+}
+
+.btn-red:hover {
+    background-color: white;
+    border: 1px solid transparent;
+    color: black;
+}
+
+.btn-circle {
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,130 @@
+/* HEADER SECTION */
+
+header {
+    position: absolute;
+    top:0px;
+    width: 100%;
+    z-index: 1;
+}
+
+
+header .header-top {
+    padding: 20px 0px;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+header .header-top .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .header-top .container .left-side p {
+    font-size: 18px;
+    color: #5D666F;
+}
+
+header .header-top .container .right-side {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+header .header-top .container .right-side .mail,
+
+header .header-top .container .right-side .phone {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+header .header-top .container .right-side .mail i,
+
+header .header-top .container .right-side .phone i {
+    color: #B00F0F;
+}
+
+header .header-top .container .right-side .mail a,
+
+header .header-top .container .right-side .phone a {
+    color: #181A1C;
+    font-weight: 600;
+}
+
+header .header-bottom {
+ padding: 20px 0px;
+}
+
+header .header-bottom .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+header .header-bottom .container nav ul {
+    display: flex;
+    column-gap: 20px;
+}
+
+header .header-bottom .container nav ul li {
+    color: #1C2539;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+
+header .header-bottom .container nav ul li:hover {
+    color: #DF0A0A;
+}
+
+
+header .header-bottom .container .buttons {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+
+/* BANNER SECTION */
+
+.banner {
+    background-image: url(../images/banner-11.png);
+    height: 100vh;
+    width: 100%;
+    padding-top: 45px;
+}
+
+
+.text-area{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.text-area a{
+    display: inline-block;
+    transform: translateY(100%);
+}
+
+.text-area .little {
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.text-area .big {
+    font-weight: 700;
+    font-size: 110px;
+}
+
+.text-area .big .red {
+    color:#B00F0F;
+}
+
+.text-area p {
+    color: #74787C;
+    margin-left: 90px;
+    font-weight: 400;
+    font-size: 20px;
+}
